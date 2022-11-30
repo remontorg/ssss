@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url(/css/reset.css);
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #000;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.header-nav {
+    margin-top: 38px;
+}
+
+.text-tel {
+    font-weight: 400;
+    font-size: 23px;
+    color: beige;
+    margin-left: 9px;
+    margin-top: -6px;
+}
+
+.text-mail {
+    font-weight: 400;
+    font-size: 23px;
+    color: beige;
+    margin-left: 9px;
+    margin-top: -6px;
+}
+
+.text-chas {
+    font-weight: 400;
+    font-size: 23px;
+    color: beige;
+    margin-left: 9px;
+    margin-top: -6px;
+}
+
+.telimg {
+    margin-left: 83px;
+    margin-top: -38px;
+}
+
+.mailimg {
+    margin-left: 67px;
+    margin-top: -38px;
+}
+
+.chasimg {
+    margin-left: 67px;
+    margin-top: -38px;
+}
+
+.yfdbufwbz {
+    display: flex;
+}
+
+.text-nav {
+    font-weight: 400;
+    font-size: 23px;
+    color: beige;
+    margin-left: 9px;
+    margin-top: 0px;
+}
+
+.navimg {
+    margin-left: 748px;
+}
+
+.palka {
+    margin-top: 16px;
+    margin-bottom: 23px;
+}
+
+.nav-list {
+    font-size: 30px;
+    font-weight: 400;
+    column-gap: 95px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: beige;
+}
+
+
+.bg {
+    background: url(../img/bg.jpg);
+    height: 847px;
+    background-repeat: no-repeat;
+    margin-top: 23px;
+    display: flex;
+}
+
+.text-title {
+    font-size: 44px;
+    font-weight: 700;
+    color: beige;
+    padding-left: 375px;
+    padding-top: 247px;
+}
+
+.title {
+    color: #95FFF9;
+    font-weight: 400;
+    font-size: 27px;
+    padding-top: 23px;
+    padding-left: 377px;
+}
+
+.wrapper {
+    background-color: #ACACACF0;
+    width: 350px;
+    height: 350px;
+    margin-left: 74px;
+    margin-top: 205px;
+}
+
+.text-title2 {
+    font-weight: 400;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 17px;
+}
+
+
+.form-input {
+    height: 55px;
+    width: 311px;
+    font-size: 21px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 400;
+    margin-left: 19px;
+    margin-top: 19px;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    font-size: 21px;
+}
+
+.form-button {
+    font-size: 21px;
+    font-weight: 400;
+    color: beige;
+    min-height: 57px;
+    background-color: #005303;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 19px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-top: 16px;
+}
+
+.form-input._error {
+    box-shadow: 0 0 15px red;
+}
